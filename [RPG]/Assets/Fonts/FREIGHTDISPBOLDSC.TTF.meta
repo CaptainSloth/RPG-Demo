@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 25eee7939a4f766458b4bc4c21aa3f9a
+timeCreated: 1506521414
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FreightDispBoldSC
+  fontNames:
+  - FreightDispBoldSC
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
