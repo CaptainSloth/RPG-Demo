@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\[RPG]",
-    "\\[RPG]\\Assets"
+    "\\[RPG]\\Assets",
+    "\\[RPG]\\Assets\\Scripts",
+    "\\[RPG]\\Assets\\Scripts\\Items"
   ],
+  "SelectedNode": "\\[RPG]\\Assets\\Scripts\\Items\\Item.cs",
   "PreviewInSolutionExplorer": false
 }

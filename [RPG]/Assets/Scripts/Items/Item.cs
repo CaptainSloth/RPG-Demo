@@ -4,10 +4,11 @@
 public class Item : ScriptableObject {
 
 
-    new public string name = "New Item";
-    public Sprite icon = null;
-    public bool isDefaultItem = false;
+    new public string name = "New Item";    // Item Name
+    public Sprite icon = null;              // Item Icon
+    public bool isDefaultItem = false;      // Is Item Default
 
+    // uses item when pressed in inventory
     public virtual void Use()
     {
         //Use Item
@@ -16,4 +17,8 @@ public class Item : ScriptableObject {
         Debug.Log("Using " + name);
     }
 
+    public void RemoveFromInventory () 
+    {
+        Inventory.instance.Remove(this);
+    }
 }
